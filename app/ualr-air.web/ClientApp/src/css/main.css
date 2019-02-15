@@ -1,0 +1,164 @@
+html, body {margin: 0; height: 100%; overflow: hidden}
+
+
+.text {
+    margin:60px;
+}
+
+#main-grid-container {
+    background-color:white;
+    color:black;
+    overflow:hidden;
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "sidenav content";
+}
+
+#main-header {
+    height:90px;
+    grid-area: header;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 1;
+}
+
+#sidenav {
+    overflow:hidden;
+    width:260px;
+    margin-bottom: -5000px;
+    padding-bottom: 5000px; 
+    grid-area: sidenav;
+    user-select: none;
+    background-color: white;
+    transition: 0.5s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#sidenav.is-active {
+    display:block;
+}
+
+#main-content {
+    z-index:200000;
+    color:black;
+    grid-area: content;
+    font-size: 20px;
+    height:100vh;
+    overflow:scroll;
+}
+
+#main-logo {
+    width: 100px;
+    position: relative;
+    top: 15px;
+    left: 5px;
+}
+
+.sidenav-item {
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 85px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    color: maroon;
+    transition: 0.3s;
+    border-bottom: 1px lightgrey solid;
+    padding-left: 30px;
+}
+
+.sidenav-item:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.sidenav-item-list {
+    display: none;
+    padding: 0;
+    position: relative;
+    bottom: 20px;
+    line-height: 30px;
+    list-style-type: none;
+    color: rgba(128, 0, 0, 0.719);
+    font-size: 11px;
+    text-transform: none;
+}
+
+.sidenav-item-list li:hover {
+    color: rgba(128, 0, 0, 0.945);
+
+}
+
+#sidenav-start {
+    background-color: rgb(235, 235, 235);
+    
+}
+
+.arrow {
+    position: relative;
+    float: right;
+    top: 32.5px;
+    right: 25px;
+    width: 19px;
+}
+
+#main-text {
+    margin:60px;
+}
+  
+.col {
+    width: 60px;
+    height:90px;
+    position: fixed;
+    left: 0px;
+    border-right: 1px solid rgba(126, 126, 126, 0.3);
+    padding-top:32px;
+  }
+  
+  .cf:before,
+  .cf:after {
+      content: " ";
+      display: table;
+  }
+  
+  .cf:after {
+      clear: both;
+  }
+  
+  .cf {
+      *zoom: 1;
+  }
+  
+  .row .three{
+    z-index:100;
+    display:none;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .hamburger .line{
+    width: 20px;
+    height: 2px;
+    background-color: maroon;
+    display: block;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .hamburger:hover{
+    cursor: pointer;
+  }
+
+  #hamburger-1.is-active .line:nth-child(2){
+    opacity: 0;
+  }
+  
+  #hamburger-1.is-active .line:nth-child(1){
+    transform: translateY(11px) rotate(45deg);
+  }
+  
+  #hamburger-1.is-active .line:nth-child(3){
+    transform: translateY(-3px) rotate(-45deg);
+  }
+  

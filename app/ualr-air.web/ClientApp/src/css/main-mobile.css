@@ -1,0 +1,33 @@
+@media (max-width: 1000px) {
+
+    #sidenav {
+        display: none;
+    }
+
+    .row .three{
+        display: block;
+    }
+
+    #main-logo {
+        z-index:-100;
+        left: 45px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    #main-header {
+        height:70px;
+    }
+
+    #main-logo {
+        top:10px;
+    }
+
+    .col {
+        height: 70px;
+        padding-top:23px;
+    }
+
+}

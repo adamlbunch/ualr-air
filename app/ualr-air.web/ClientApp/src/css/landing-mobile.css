@@ -1,0 +1,87 @@
+@media (max-width: 1200px) {
+
+    #navbar {
+        height: 70px;
+    }
+
+    #navbar-logo {
+        top:11px;
+    }
+
+    #content {
+        position: absolute;
+        top:2vh;
+        left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+        right:unset;
+        width:unset;
+    }
+
+    #logo {
+        position:relative;
+        top:0vh;
+        width: 50vw;
+    }
+
+    #title {
+        position:relative;
+        top:2vh;
+        font-size: 9vw;
+    }
+                                                                                                                         
+    #paragraph {
+        position:relative;
+        top:3vh;
+        font-size: 4vw;
+        width: 90vw;
+    }
+
+    #signup-btn {
+        position:relative;
+        top:5vh;
+        padding: 3.5vw;
+        text-align:center;
+        font-size: 4vw;
+        width:60vw;
+    }
+
+    #login-text {
+        position:relative;
+        top:7vh;
+        font-size: 4vw;
+    }
+
+    #tos {
+        position:relative;
+        top:9vh;
+        width:50vw;
+        font-size: 3vw;
+    }
+
+    #video {
+        display:none;
+    }      
+
+    #form-div{
+        width:100%;
+    }
+}
+
+@media (max-width: 320px) { 
+    #form-div{
+        width:100%;
+    }
+
+    .form-header {
+       font-size: 18px;
+       margin-bottom:20px;
+    }
+
+    #signup-form-text {
+        font-size:20px;
+        margin-bottom:20px;
+    }
+}

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Projects\web.ualrair" t="IncludeFlat">
+      <e p="app\web.ualrair" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ClientApp" t="Include">
+          <e p=".gitignore" t="Include" />
+          <e p="package-lock.json" t="Include" />
+          <e p="package.json" t="Include" />
+          <e p="public" t="Include">
+            <e p="favicon.ico" t="Include" />
+            <e p="index.html" t="Include" />
+            <e p="manifest.json" t="Include" />
+          </e>
+          <e p="README.md" t="Include" />
+          <e p="src" t="Include">
+            <e p="App.js" t="Include" />
+            <e p="App.test.js" t="Include" />
+            <e p="components" t="Include">
+              <e p="Landing" t="Include">
+                <e p="Button.js" t="Include" />
+                <e p="Content.js" t="Include" />
+                <e p="LandingLayout.js" t="Include" />
+                <e p="Login.js" t="Include" />
+                <e p="NavBar.js" t="Include" />
+                <e p="NavBarLinks.js" t="Include" />
+                <e p="SignUp.js" t="Include" />
+              </e>
+              <e p="Main" t="Include">
+                <e p="Assure.js" t="Include" />
+                <e p="MainLayout.js" t="Include" />
+                <e p="NavBar.js" t="Include" />
+                <e p="Programs.js" t="Include" />
+                <e p="Resources.js" t="Include" />
+                <e p="SideNav.js" t="Include" />
+                <e p="SideNavItem.js" t="Include" />
+                <e p="Start.js" t="Include" />
+              </e>
+              <e p="Welcome.js" t="Include" />
+            </e>
+            <e p="css" t="Include">
+              <e p="landing-mobile.css" t="Include" />
+              <e p="landing.css" t="Include" />
+              <e p="main-mobile.css" t="Include" />
+              <e p="main.css" t="Include" />
+            </e>
+            <e p="images" t="Include">
+              <e p="email-icon.png" t="Include" />
+              <e p="landing-arrow.png" t="Include" />
+              <e p="logo-maroon.png" t="Include" />
+              <e p="logo-white.png" t="Include" />
+              <e p="option-icon.png" t="Include" />
+              <e p="password-icon.png" t="Include" />
+              <e p="right-arrow.svg" t="Include" />
+              <e p="ualr.jpg" t="Include" />
+            </e>
+            <e p="index.js" t="Include" />
+            <e p="registerServiceWorker.js" t="Include" />
+            <e p="videos" t="Include">
+              <e p="programming-video.mp4" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="HomeController.cs" t="Include" />
+          <e p="SampleDataController.cs" t="Include" />
+        </e>
+        <e p="DependencyRegistry.cs" t="Include" />
+        <e p="Mappers" t="Include">
+          <e p="IMapStudentInfo.cs" t="Include" />
+          <e p="MapStudentInfo.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="ViewModels" t="Include">
+            <e p="StudentInfoViewModel.cs" t="Include" />
+            <e p="ViewModelValidators" t="Include">
+              <e p="StudentInfoViewModelValidator.cs" t="Include" />
+              <e p="StudentLoginViewModelValidator.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="web.ualrair.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Pages" t="Include">
+          <e p="_ViewImports.cshtml" t="Include" />
+          <e p="Error.cshtml" t="Include" />
+          <e p="Error.cshtml.cs" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Sanatizers" t="Include">
+          <e p="ISanatizeStudentInfoViewModel.cs" t="Include" />
+          <e p="ISanatizeStudentLoginViewModel.cs" t="Include" />
+          <e p="SanatizeStudentInfoViewModel.cs" t="Include" />
+          <e p="SanatizeStudentLoginViewModel.cs" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="web.ualrair.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="app\web.ualrair.core" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controls" t="Include">
+          <e p="LoginStudent" t="Include">
+            <e p="ILoginStudent.cs" t="Include" />
+            <e p="LoginStudent.cs" t="Include" />
+          </e>
+          <e p="RegisterStudent" t="Include">
+            <e p="IRegisterStudent.cs" t="Include" />
+            <e p="RegisterStudent.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Dbos" t="Include">
+          <e p="RegisteredStudent.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="StudentInfo.cs" t="Include" />
+          <e p="ValidationModels" t="Include">
+            <e p="RegisterStudentValidationModel.cs" t="Include" />
+            <e p="ValidationModel.cs" t="Include" />
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="web.ualrair.core.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Repositories" t="Include">
+          <e p="IRepositoryAccess.cs" t="Include" />
+          <e p="IUalrairRepository.cs" t="Include" />
+          <e p="RepositoryAccess.cs" t="Include" />
+          <e p="UalrairRepository.cs" t="Include" />
+        </e>
+        <e p="Security" t="Include">
+          <e p="Hash.cs" t="Include" />
+          <e p="Salt.cs" t="Include" />
+        </e>
+        <e p="Validators" t="Include">
+          <e p="RegisterStudentValidator.cs" t="Include" />
+        </e>
+        <e p="web.ualrair.core.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="web.ualrair.sln" t="IncludeFlat" />
+    </e>
+    <e p="C:\Users\Adam\.Rider2018.2\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\Adam\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Adam\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_web.ualrair.-1297779497.00" t="ExcludeRecursive" />
+  </component>
+</project>
